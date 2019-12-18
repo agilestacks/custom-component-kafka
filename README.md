@@ -2,7 +2,7 @@
 
 The repository contains the following files:
 
-* [hub-component.yaml](hub-component.yaml) Automation Hub deployment manifest, that describes a Custom Component. More details are available in the commented lines of the file in [documentation](https://docs.agilestacks.io/Concepts/Manifest.html)
+* [hub-component.yaml](hub-component.yaml) Automation Hub deployment manifest, that describes a Custom Component. More details are available in the commented lines of the file or in [documentation](https://docs.agilestacks.io/Concepts/Manifest.html)
 * [Makefile](Makefile): Custom component implementation in Make. Helm is used to install Apache Kafka release. See commented lines of the Makefile for more information
 * [values.yaml.template](values.yaml.template) Kafka Helm chart configuration template. The default template engine is curly for ${}, the others are mustache and commentary, respectively. For more information see templating [documentation](https://docs.agilestacks.io/Concepts/Templating.html)
 
